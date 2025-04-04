@@ -1,0 +1,33 @@
+/* styles.css */
+
+
+/* Style for buttons */
+.button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 15px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: white;
+}
+
+.button:hover {
+    -fx-background-color: #b3adadfd;
+}
+
+.button:pressed {
+    -fx-background-color:rgb(13, 12, 12);
+}
+
+/* Color Picker */
+.color-picker {
+    -fx-background-color: white;
+    -fx-border-color:rgb(101, 99, 99);
+    -fx-border-radius: 5px;
+}
+
+/* Slider */
+.slider {
+    -fx-pref-width: 150px;
+}
